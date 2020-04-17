@@ -4,6 +4,31 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+.ignorar{
+  visibility: hidden;
+}
+
+.getCidade input{
+  background-color: white;
+  border-radius: 25px;
+  border: 1px solid black;
+  box-shadow: none;
+  width: 50%;
+  height: 50px;
+  text-indent: 15px;
+}
+
+.getCidade a.btn{
+  color: white;
+  padding: 15px 15px;
+  margin: 1%;
+  font-size: 15px;
+  line-height: 1.5;
+  border-radius: 25px;
+  background-color: #0080ff;
+  border-color: #343a40;
+}
+
 body,
 html {
   width: 100%;
@@ -85,6 +110,21 @@ h6 {
   font-weight: 800;
 }
 
+#planos {
+  padding-top: 50px;
+}
+
+#planos .plano-card{
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 4%;
+  color: black;
+}
+
+#planos .plano-card p{
+  color: black;
+}
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -93,13 +133,14 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead-2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .masthead h1 {
+  color: white;
   font-size: 4rem;
   margin: 0;
   padding: 0;
@@ -112,6 +153,10 @@ h6 {
   .masthead h1 {
     font-size: 5.5rem;
   }
+}
+
+.masthead h3, p{
+  color: white;
 }
 
 /* Side Menu */
@@ -213,7 +258,7 @@ h6 {
 
 .callout {
   padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0.1) 0%, rgb(113, 197, 253) 15%, rgb(113, 197, 253) 50%, rgba(255, 255, 255, 0.1) 100%);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,6 +269,14 @@ h6 {
   font-weight: 700;
   display: block;
   max-width: 30rem;
+}
+
+#about{
+  background-color: #d7f2f7;
+}
+
+#about p {
+  color: black;
 }
 
 .portfolio-item {
